@@ -1,0 +1,38 @@
+/* h1 {
+  color: red;
+} */
+/* tested & work */
+/* her tarafta kullanacaginiz classlariniz varsa bunlari buraya ekleyebilirsiniz */
+/* ornegin bunlar bir cok kullanilan h1 etike h2 etiketi olabilir  */
+/* ornegin bir h1 e veya bir elemana text center ozelligi vermek isteye bilirsin */
+.text-center {
+  text-align: center;
+  /* center olmasini istedigine yanina bu class i yazman yeterli olucak */
+}
+
+.heading-small {
+  font-size: 1.25rem;
+}
+.heading-medium {
+  font-size: 1.5rem;
+}
+.heading-big {
+  font-size: 1.75rem;
+}
+
+/* color larimiz olabilir mesala  */
+
+/* Colors */
+.bg-dark-blue {
+  background: navy;
+}
+.bg-light-blue {
+  background: #336ea2;
+  /* hover ozelliginde kullanabiliriz */
+}
+
+/* link ve basligin ortalanmasi icin container olmasi gerekir */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}

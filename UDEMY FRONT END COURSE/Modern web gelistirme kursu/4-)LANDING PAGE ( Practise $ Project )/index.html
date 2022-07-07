@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page Practice & Project</title>
+    <meta name="keywords" content="Html,Html5,Css,Java,JavaScript,React " />
+    <meta name="description" content="Html,Html5,Css,Java,JavaScript,React" />
+    <!-- css dosyalarinin baglantisi -->
+    <!-- !! burada yazim sirasi onemli !! -->
+    <!-- 1-) global.css
+        2-) main.css
+        3-) tablet yada mobile css dosyasi -->
+
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- Tablet-->
+    <link rel="stylesheet" media="(max-width:768px)" href="./css/tablet.css" />
+    <!-- burada digerlerinden farkli olarak ( media ) etiketi bulunmakta ve media etiketinin calisma sarti belirtilmistir -->
+    <!-- 768px oldugunda bu etiketi git ve icinde ki kodlari calistir -->
+
+    <!-- mobile -->
+    <link rel="stylesheet" media="(max-width:500px)" href="./css/mobile.css" />
+    <!-- ayni sekilde burada da media etiketi ve calisma sarti verilmistir -->
+    <!-- bunun anlami sudur; eger ekran max 500px olarusa bu css etiketine gider ve oradaki kodlar gecerli olur -->
+    <!-- bu css dosyasinin icine yazim yaparken extra dan bir media etiketi acmana gerek yok guzel olan yani da bu :}} -->
+
+    <!-- ufak bir text yapalim -->
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- cdnjs Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- <h1>testing</h1> -->
+    <!-- calisiyeee -->
+
+    <!-- <i class="fa fa-pencil-alt"></i> -->
+    <!-- icon larda calisiyor cdnjs Font awesome sayesinde -->
+
+    <!-- ilk basta html iskeletini olustur -->
+
+    <header class="bg-dark-blue">
+      <div class="container">
+        <nav id="navbar">
+          <h1 class="heading-medium">Landing Page Project</h1>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#training">Training</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </body>
+</html>
