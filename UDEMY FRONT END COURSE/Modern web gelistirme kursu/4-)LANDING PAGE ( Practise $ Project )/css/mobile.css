@@ -9,3 +9,13 @@
   overflow: hidden;
   height: 80px;
 }
+
+#training .items {
+  flex-direction: column;
+}
+#training .items .item {
+  width: 100%;
+}
+.course {
+  flex-direction: column;
+}

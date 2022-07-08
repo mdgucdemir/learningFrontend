@@ -80,3 +80,88 @@ html {
   /* ayni sekilde hover ozelligimiz, global de bir class olusturarak yapabiliriz */
   /* Let's do it */
 }
+/* Trainig Section */
+#training {
+  color: white;
+  padding: 1rem;
+}
+#training h3 {
+  padding: 0.57rem 0;
+}
+#training .items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#training .items .item {
+  width: 33%;
+  text-align: center;
+  padding: 0.5rem;
+}
+#training .items .item:hover {
+  color: red;
+  opacity: 0.6;
+}
+
+#training .items .item h3 {
+  padding: 0.57rem 0;
+}
+/* Courses Section */
+
+#courses {
+  color: #333;
+  padding: 1rem;
+}
+.courses {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+/* course larimizi sekillendirelim */
+
+.courses .course {
+  display: flex;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.courses .course .course-image {
+  margin-right: 0.5rem;
+  position: relative;
+}
+.courses .course .course-image img {
+  border-radius: 7px;
+}
+.courses .course .course-image span {
+  color: white;
+  background-color: red;
+  padding: 0.25rem;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.courses .course .course-info:hover {
+  color: orange;
+}
+
+.courses .course .course-info .title {
+  letter-spacing: 1.2px;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+.courses .course .course-info .description {
+  letter-spacing: 1.2px;
+  opacity: 0.6;
+  margin-bottom: 0.25rem;
+}
+.courses .course .course-info .instructor {
+  letter-spacing: 1.2px;
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+}
+.courses .course .course-info .rating {
+  letter-spacing: 1.2px;
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+}

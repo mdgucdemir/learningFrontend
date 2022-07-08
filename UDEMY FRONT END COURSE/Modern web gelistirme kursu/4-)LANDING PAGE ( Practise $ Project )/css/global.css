@@ -9,6 +9,9 @@
   text-align: center;
   /* center olmasini istedigine yanina bu class i yazman yeterli olucak */
 }
+.up {
+  text-transform: uppercase;
+}
 
 .heading-small {
   font-size: 1.25rem;
