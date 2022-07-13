@@ -107,7 +107,7 @@
         <!-- 3 -->
         <article class="item">
           <i class="fa-solid fa-book-skull"></i>
-          <h3>Konderanslar</h3>
+          <h3>Konferanslar</h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt,
             consequatur.
@@ -177,5 +177,66 @@
         </div>
       </div>
     </section>
+
+    <!-- footer -->
+    <footer id="contact" class="bg-dark-blue">
+      <div class="contact-form">
+        <form>
+          <!-- form da ki action i sildik cunku back end ile bir isimiz yok sadece tasrim yapicaz -->
+          <h4 class="text-center heading-medium up">contact us</h4>
+          <!-- form-group olusturalim ve her bir input ve label larimizi bu grubun icine alalim   -->
+
+          <!-- name form group -->
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              class="form-control"
+              id="name"
+              placeholder="Your Name"
+            />
+          </div>
+          <!-- e- mail form group -->
+          <div class="form-group">
+            <label for="e-mail">E-mail</label>
+            <input
+              type="text"
+              name="e-mail"
+              class="form-control"
+              id="e-mail"
+              placeholder="Your E-mail"
+            />
+          </div>
+          <!-- message form group -->
+          <div class="form-group">
+            <label for="name">Message</label>
+            <!-- #Textarea da < cols > u yazmadik cunki width ini kendimiz ayarlidik -->
+            <textarea
+              name="message"
+              id="message"
+              class="form-control"
+              rows="5"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
+          <!-- submit button -->
+          <button type="submit" class="btn btn-block">Submit</button>
+        </form>
+        <!-- social media icon larimizi koyucaz -->
+        <!-- form ve iconlarimikz olusturan ul kardes olacaklar -->
+        <ul>
+          <li>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
